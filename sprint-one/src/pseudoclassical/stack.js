@@ -9,6 +9,9 @@ Stack.prototype.size = function() {
   return this.count;
 };
 
+Stack.prototype.push = function() {
+  this.count++;
+}
 
 
 
