@@ -20,14 +20,7 @@ var stackMethods =  {
     delete this.storage[this.count];
     if(this.count > 0) {
       this.count--;
-    }
+  	}
     return temp;
   }
 };
-
-//Stack.size()
-
-
-// it('reports a size of zero for a new stack', function() {
-//         expect(stack.size()).to.equal(0);
-//       });
